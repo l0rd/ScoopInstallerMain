@@ -9,7 +9,7 @@
             "hash": "1fa99609621603e26cd9dce90044729967cbcdaa9f2f999660adda203721bfcb"
         }
     },
-    "bin": "podman.exe",
+    "bin": ["gvproxy.exe", "podman.exe", "win-sshproxy.exe"],
     "installer": {
         "script": [
             "Expand-DarkArchive \"$dir\\podman-$version-setup.exe\" \"$dir\\_tmp\" -Removal",
